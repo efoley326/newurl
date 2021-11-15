@@ -1,5 +1,5 @@
 from django.db import models
-# from .utils import create_random_url
+from .utils import create_random_url
 
 # Create your models here.
 class Shortener(models.Model):
